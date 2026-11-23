@@ -9,7 +9,9 @@
     Zamówienie
     <form action='zamowienie.php' method='post' >
     Ilość pączków: <input type='text' name='paczki' placeholder= 'Podaj ilość pączków'>
+    <br><br>
     Ilość kremówek: <input type='text' name='kremowki' placeholder='Podaj ilość kremówek'>
+    <br><br>
     Wyślij zamówienie <input type='submit' value='Wyślij'>
 </form>
 </body>
