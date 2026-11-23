@@ -1,0 +1,1 @@
+Formularz index.php wysyłający metodą POST do pliku zamowienie.php wyświetlający dane w tabeli
