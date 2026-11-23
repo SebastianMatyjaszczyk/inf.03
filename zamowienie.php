@@ -1,20 +1,4 @@
 
-
-
-<?php 
-$paczki = $_post['paczki'];
-$kremowki = $_post['kremowki'];
-                              
-?>
-
-<table cellspacing='2'>
- <tr>
-    <td>$paczki</td>
-    <td>$kremowki</td>
-    <td></td>
-    <td></td>
- </tr>
-</table>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,20 +8,20 @@ $kremowki = $_post['kremowki'];
 </head>
 <body>
    <?php
-   $paczki=$_post['paczki'];
+   $paczki=$_POST['paczki'];
    $kremowki=$_POST['kremowki'];
-   $suma= ($paczki*0.99) + (9.99*$kremowki);
+   $suma= (1.99*$paczki) + (9.99*$kremowki);
 
    
    
    
    
-   ?>
-   echo<<<end
+   
+echo<<<END
    <h2>Podsumowanie zamówienia</h2>
  <table border='1' cellpading='10' cellspacing='2'>
    <tr>
-      <td>pączek (0.99zł/szt)</td>
+      <td>pączek (1.99zł/szt)</td>
       <td>$paczki</td>
    </tr>
    <tr>
@@ -48,7 +32,9 @@ $kremowki = $_post['kremowki'];
       <td>Do zapłaty (zł)</td>
       <td>$suma</td>
    </tr>
-</table>
-end;
+
+ </table>
+END;
+?>
 </body>
 </html>
