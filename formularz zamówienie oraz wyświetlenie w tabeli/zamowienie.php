@@ -11,12 +11,7 @@
    $paczki=$_POST['paczki'];
    $kremowki=$_POST['kremowki'];
    $suma= (1.99*$paczki) + (9.99*$kremowki);
- if($suma>100){
-    0.9*$suma;
-    echo'naliczono rabat 10%';
- }else{
-   $suma;
- }
+
    
    
    
