@@ -1,3 +1,12 @@
+<?php
+Session_start();
+
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,5 +22,12 @@
         <br><br>
         <input type='submit' value='Zaloguj'>
 </form>
+<?php
+if(isset($_SESSION['blad'])){
+echo $_SESSION['blad'];
+
+}
+
+?>
 </body>
 </html>
