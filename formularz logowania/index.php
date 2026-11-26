@@ -15,6 +15,9 @@ Session_start();
     <title>Sebastian Matyjaszczyk</title>
 </head>
 <body>
+    <h2>Nie masz konta?</h2>
+    <a href='zarejestruj.php'> zarejestruj się tutaj </a>
+    
     <form action='zaloguj.php' method='post'>
         login:<input type='text' name='login'>
         <br><br>
